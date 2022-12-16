@@ -1,7 +1,7 @@
 # Ke'Ondrae Mell
 # MS582
 # Professor Habib
-# 14 December 2022
+# 15 December 2022
 # Python Blockchain Final
 
 import hashlib
@@ -37,6 +37,7 @@ class Blockchain:
     @property
     def last_block(self):
         return self.chain[-1]
+
 
 t1 = "Tim sends 3.1 GC to Flow"
 t2 = "Flow sends 2.5 GC to Adam"
